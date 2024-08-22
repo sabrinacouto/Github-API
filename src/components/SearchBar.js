@@ -39,6 +39,7 @@ function SearchBar({ setUsername }) {
           minWidth: 'auto',
           padding: '8px 16px',
           backgroundColor: '#9c27b0', 
+          borderRadius: 5,
           '&:hover': {
             backgroundColor: '#7b1fa2', 
           },

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import SearchPage from './pages/SearchPage';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import HomePage from '../pages/HomePage';
+import SearchPage from '../pages/SearchPage';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Box } from '@mui/material';
 
 function AppRoutes() {
