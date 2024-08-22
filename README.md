@@ -33,6 +33,13 @@ Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
    ```bash
    npm start
 
+
+##  💬 Vercel
+
+Ou você pode acessar pelo link:
+
+https://github-api-three-delta.vercel.app/
+
 <p align='center'>
 Desenvolvido com 💜 por Sabrina Couto
 </p>
