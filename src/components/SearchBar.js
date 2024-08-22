@@ -17,11 +17,32 @@ function SearchBar({ setUsername }) {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         fullWidth
+        sx={{
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: '#9c27b0', 
+            },
+            '&:hover fieldset': {
+              borderColor: '#7b1fa2', 
+            },
+            '&.Mui-focused fieldset': {
+              borderColor: '#6a1b9a',
+            },
+          },
+        }}
       />
       <Button
         variant="contained"
         onClick={handleSearch}
-        sx={{ marginLeft: 2, minWidth: 'auto', padding: '8px 16px', backgroundColor: '#e91e63' }}
+        sx={{
+          marginLeft: 2,
+          minWidth: 'auto',
+          padding: '8px 16px',
+          backgroundColor: '#9c27b0', 
+          '&:hover': {
+            backgroundColor: '#7b1fa2', 
+          },
+        }}
       >
         <SearchIcon />
       </Button>
@@ -30,3 +51,5 @@ function SearchBar({ setUsername }) {
 }
 
 export default SearchBar;
+
+

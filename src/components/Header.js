@@ -10,13 +10,36 @@ function Header() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#e91e63' }}>
+    <AppBar
+      position="static"
+      sx={{
+        backgroundImage: 'linear-gradient(to right, #9c27b0, #e91e63)', // Gradiente roxo e rosa
+        backgroundColor: 'transparent', // Torna a cor de fundo transparente para mostrar o gradiente
+      }}
+    >
       <Toolbar>
-        <Typography variant="h6" style={{ flexGrow: 1 }}>
-          GitHub API 
+        <Typography
+          variant="h6"
+          sx={{ flexGrow: 1, color: 'white' }} // Define a cor do texto
+        >
+          GitHub API
         </Typography>
-        <Button color="inherit" onClick={handleHomeClick}>
-          Home
+        <Button
+          onClick={handleHomeClick}
+          sx={{
+            backgroundImage: 'linear-gradient(to right, #9c27b0, #e91e63)', 
+            backgroundColor: 'transparent', 
+            color: 'white', 
+            padding: '6px 16px', 
+            borderRadius: '4px', 
+            '&:hover': {
+              backgroundImage: 'linear-gradient(to right, #8e24aa, #d81b60)', 
+              backgroundColor: 'transparent',
+              borderColor: '#e91e63', 
+            },
+          }}
+        >
+       Home
         </Button>
       </Toolbar>
     </AppBar>

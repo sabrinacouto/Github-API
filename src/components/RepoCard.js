@@ -64,7 +64,17 @@ function RepoCard({ repo }) {
           variant="contained"
           href={repo.html_url}
           target="_blank"
-          sx={{ mt: 'auto', backgroundColor: '#e91e63'}}
+          sx={{
+            marginTop: 2,
+            backgroundImage: 'linear-gradient(to right, #9c27b0, #e91e63)', 
+            backgroundColor: 'transparent', 
+            color: 'white', 
+            '&:hover': {
+                backgroundImage: 'linear-gradient(to right, #8e24aa, #d81b60)', 
+                backgroundColor: 'transparent', 
+            },
+            borderRadius: 1, 
+        }}
         >
           Ver Repositório
         </Button>
