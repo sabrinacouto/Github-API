@@ -15,8 +15,8 @@ function HomePage() {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
-      minHeight="100vh"
-      sx={{ backgroundColor: '#f5f5f5', padding: 3 }}
+      minHeight="70vh"
+      sx={{ padding: 3 }}
     >
       <Container
         maxWidth="sm"

@@ -17,7 +17,7 @@ function Footer() {
     >
       <Container maxWidth="sm">
         <Typography variant="body1">
-          © 2024 Sabrina Couto
+        Desenvolvido com 💜 por Sabrina
         </Typography>
       </Container>
     </Box>
