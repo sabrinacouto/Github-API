@@ -23,7 +23,7 @@ Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
 
 2. **Navegue para o diretório do projeto**
    ```bash
-   cd teste-tech
+   cd github-api
    
 3. **Instale as dependências**
    ```bash
