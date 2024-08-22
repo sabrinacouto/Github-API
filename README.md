@@ -1,8 +1,7 @@
-# Consumindo API do Github
+# ✨ Consumindo API do Github  - Teste Técnico✨
 
 Este projeto é uma aplicação web construída com React e Material UI que permite aos usuários visualizar repositórios do GitHub. A aplicação consome a API pública do GitHub para buscar e exibir repositórios, mostrando informações como nome, descrição e número de estrelas. Os usuários podem clicar em um cartão para abrir o repositório no GitHub.
 
-## Tecnologias Utilizadas
 <p align='center'>
    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
    <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white">
@@ -15,7 +14,7 @@ Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
 - [Node.js](https://nodejs.org/) 
 - [npm](https://www.npmjs.com/get-npm) 
 
-## Rodando o projeto
+##  💬 Rodando localmente
 
 1. **Clone o repositório**
 
@@ -34,8 +33,9 @@ Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
    ```bash
    npm install
 
-
+<p align='center'>
 Desenvolvido com 💜 por Sabrina Couto
+</p>
 
 
 
