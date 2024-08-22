@@ -31,7 +31,7 @@ Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
 
 4. **Rodando o projeto**
    ```bash
-   npm install
+   npm start
 
 <p align='center'>
 Desenvolvido com 💜 por Sabrina Couto
