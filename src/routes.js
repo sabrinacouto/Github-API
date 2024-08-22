@@ -4,18 +4,29 @@ import HomePage from './pages/HomePage';
 import SearchPage from './pages/SearchPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { Box } from '@mui/material';
+
 
 function AppRoutes() {
-    return (
-        <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/search" element={<SearchPage />} />
-            </Routes>
-            <Footer />
-        </Router>
-    );
+  return (
+    <Box
+      display="flex"
+      flexDirection="column"
+      minHeight="100vh"
+    >
+      <Router>
+        <Header />
+        <Box component="main" flexGrow={1}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/search" element={<SearchPage />} />
+          </Routes>
+        </Box>
+        <Footer />
+      </Router>
+    </Box>
+  );
 }
 
 export default AppRoutes;
+

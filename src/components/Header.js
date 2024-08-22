@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: '#e91e63' }}>
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           GitHub API 

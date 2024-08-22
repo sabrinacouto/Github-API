@@ -9,6 +9,8 @@ function Footer() {
         py: 3,
         px: 2,
         mt: 'auto',
+        bottom: 0,
+        textAlign: 'center',
         backgroundColor: (theme) =>
           theme.palette.mode === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
       }}

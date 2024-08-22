@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
 
 function SearchBar({ setUsername }) {
   const [inputValue, setInputValue] = useState('');
@@ -17,8 +18,12 @@ function SearchBar({ setUsername }) {
         onChange={(e) => setInputValue(e.target.value)}
         fullWidth
       />
-      <Button variant="contained" color="primary" onClick={handleSearch} sx={{ marginLeft: 2 }}>
-        Search
+      <Button
+        variant="contained"
+        onClick={handleSearch}
+        sx={{ marginLeft: 2, minWidth: 'auto', padding: '8px 16px', backgroundColor: '#e91e63' }}
+      >
+        <SearchIcon />
       </Button>
     </Box>
   );
