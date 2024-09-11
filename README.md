@@ -1,4 +1,4 @@
-# ✨ Consumindo API do Github  - Teste Técnico✨
+# ✨ Consumindo API do Github ✨
 
 Este projeto é uma aplicação web construída com React e Material UI que permite aos usuários visualizar repositórios do GitHub. A aplicação consome a API pública do GitHub para buscar e exibir repositórios, mostrando informações como nome, descrição e número de estrelas. Os usuários podem clicar em um cartão para abrir o repositório no GitHub.
 
